@@ -16,4 +16,4 @@ jobs:
         with:
           distribution: 'zulu' 
           java-version: ${{ inputs.java_ver }}
-      - run: echo test
+      - run: echo "Java version is" $java-version
